@@ -1,5 +1,7 @@
-define(function(){
-    var  test1 = function (testString, assert, source){
+define({
+
+
+    test1:function (testString, assert, source){
 
         source = source || '';
         var stringV;
@@ -33,8 +35,8 @@ define(function(){
 
         }
         return outString+' '+stringV+'<br>';
-    }
-    var test2 = function (obj, testName, assert, source){
+    },
+    test2:function (obj, testName, assert, source){
         if (obj){
             var parts = testName.split('.')
             parts[0] = 'obj'
@@ -73,5 +75,4 @@ define(function(){
         return outString+' '+stringV+'<br>';
     }
 
-    return{test1:test1, test2:test2}
 });
