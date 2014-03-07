@@ -3,7 +3,7 @@
  *
  * @namespace
  */
-var klass = {
+define({
 	/**
 	 * Generic Class Constructor (with internal public members)
 	 * Licence: MIT Licence © 2014 Arctelix
@@ -120,6 +120,6 @@ var klass = {
 	    if (debugSelf) console.log('---'+klassName, klass.prototype)
 	    return klass;
 	}
-};
+});
 
 
