@@ -1,5 +1,5 @@
 define(function(){
-    var  test1 = function (testString, assert, source){
+    var  test = function (testString, assert, source){
 
         source = source || '';
         var stringV;
