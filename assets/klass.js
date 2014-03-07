@@ -3,12 +3,12 @@
  * @namespace
  */
 var com = com || {}
-com.utils = com.utils || {}
+com.utils = utils || {}
 /**
  *
  * @namespace
  */
-com.utils.test = {
+utils.test = {
 
 }
 /**
