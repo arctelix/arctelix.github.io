@@ -26,6 +26,10 @@ define({
         var outString = source + testString + ' = ';
         if (assert == 'fail') console.error(assert, outString, value);
         else console.log(assert, outString, value);
+        try{
+            var outPut = document.getElementById('test-data')
+            outPut.innerHTML += outString+' '+stringV+'<br>';
+        }
         return outString+' '+stringV+'<br>';
     }
 });
