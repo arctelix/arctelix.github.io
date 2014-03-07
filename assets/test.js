@@ -5,7 +5,6 @@ define({
 
         source = source || '';
         var stringV;
-        console.warn('test eval', eval(testString))
         try{
             var value = eval(testString)
             }catch(e){
@@ -13,7 +12,6 @@ define({
                 var value = 'error'
                 }
 
-        console.log(typeof value, ' = ', assert);
         if (value === assert || typeof value == assert) {
             assert = 'pass';
             if (value=='error') value = error;
@@ -51,7 +49,6 @@ define({
             var value = 'error'
         }
 
-        console.log(typeof value, ' = ', assert);
         if (value === assert || typeof value == assert) {
             assert = 'pass';
             if (value=='error') value = error;
