@@ -1,5 +1,4 @@
 define(function (){
-
     var outPut = document.getElementById('out-put');
     return {
         test: function (testString, assert, source){
@@ -32,5 +31,4 @@ define(function (){
             outPut.innerHTML += outString+' '+stringV+'<br>';
         }
     }
-
 });
