@@ -3,7 +3,7 @@ define({
 
         source = source || '';
         var stringV;
-        console.warn('test this', this.name)
+        console.warn('test eval', eval(testString))
         try{
             var value = eval(testString)
             }catch(e){
