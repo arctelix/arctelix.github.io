@@ -3,12 +3,12 @@
  * @namespace
  */
 var com = com || {}
-com.utils = utils || {}
+com.utils = com.utils || {}
 /**
  *
  * @namespace
  */
-utils.test = {
+com.utils.test = {
 
 }
 /**
@@ -16,7 +16,6 @@ utils.test = {
  * @namespace
  */
 var klass = {
-
 	/**
 	 * Generic Class Constructor (with internal public members)
 	 * Licence: MIT Licence © 2014 Arctelix
