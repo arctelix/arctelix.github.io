@@ -2,6 +2,19 @@
  *
  * @namespace
  */
+var com = com || {}
+com.utils = com.utils || {}
+/**
+ *
+ * @namespace
+ */
+com.utils.test = {
+
+}
+/**
+ *
+ * @namespace
+ */
 var klass = {
 
 	/**
