@@ -29,6 +29,8 @@ define({
         try{
             var outPut = document.getElementById('test-data')
             outPut.innerHTML += outString+' '+stringV+'<br>';
+        }catch(e){
+
         }
         return outString+' '+stringV+'<br>';
     }
